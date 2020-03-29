@@ -1,3 +1,54 @@
-h1{
-  color: red;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Futura", "Hirago KakuGothic Pro", sans-serif;
+  color: white;
+}
+body{
+  width: 100%;
+  background: #000!important;
+}
+header img{
+  position: relative;
+}
+#underlay{
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+#hoge{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: block;
+  z-index: -1;
+  background-color: red;
+}
+.heading{
+  font-size: 4rem;
+}
+.heading02{
+  font-size: 2.5rem;
+}
+.info-box{
+  display: block;
+  margin: 0 auto;
+}
+.about p{
+  font-size: 1.5rem;
+  text-align: justify;
+  text-justify: inter-ideograph;
+}
+/* creations */
+.card{
+  background: #000;
+}
+/* link */
+.link-contents{
+  font-size: 4rem;
 }
