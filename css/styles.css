@@ -30,17 +30,17 @@ header img{
   background-color: red;
 }
 .heading{
-  font-size: 4rem;
+  font-size: 2.0rem;
 }
 .heading02{
-  font-size: 2.5rem;
+  font-size: 1.5rem;
 }
 .info-box{
   display: block;
   margin: 0 auto;
 }
 .about p{
-  font-size: 1.5rem;
+  font-size: 0.7rem;
   text-align: justify;
   text-justify: inter-ideograph;
 }
@@ -57,13 +57,53 @@ header img{
  /* No media query for `xs` since this is the default in Bootstrap */
 
 /* // Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { ... }
+@media (min-width: 576px) {
+  .heading{
+  font-size: 2.5rem;
+}
+.heading02{
+  font-size: 2.0rem;
+}
+.about p{
+  font-size: 1.0rem;
+}
+}
 
 /* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { ... }
+@media (min-width: 768px) {
+  .heading{
+  font-size: 3rem;
+}
+.heading02{
+  font-size: 2.5rem;
+}
+.about p{
+  font-size: 1.4rem;
+}
+}
 
 /* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { ... }
+@media (min-width: 992px) {
+  .heading{
+  font-size: 3.5rem;
+}
+.heading02{
+  font-size: 3.0rem;
+}
+.about p{
+  font-size: 1.8rem;
+}
+}
 
 /* // Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { ... }
+@media (min-width: 1200px) {
+  .heading{
+  font-size: 4rem;
+}
+.heading02{
+  font-size: 3.5rem;
+}
+.about p{
+  font-size: 2.2rem;
+}
+}
